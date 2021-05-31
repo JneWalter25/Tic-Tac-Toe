@@ -122,15 +122,7 @@ def AskXorY():
             elif draw1 and draw2 and Finish:
                 print("Draw")
                 break
-        if win1:
-            print("X wins")
-            break
-        elif win2:
-            print("O wins")
-            break
-        elif draw1 and draw2 and Finish:
-            print("Draw")
-            break
+
 
 cells = " " * 9
 
