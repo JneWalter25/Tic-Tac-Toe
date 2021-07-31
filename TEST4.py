@@ -1,9 +1,4 @@
-Finish = True
-win1 = False
-win2 = False
-draw1 = False
-draw2 = False
-
+Finish, win1, win2, draw1, draw2 = True, False, False, False, False
 
 def CheckX():
     global win1
